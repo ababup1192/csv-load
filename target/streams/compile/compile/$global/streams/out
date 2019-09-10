@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mirai.watanabe/Desktop/csv-load/src/main/scala/example/Hello.scala:14:43: method apply of type Seq[Nothing] in class Delegate does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m  val result = csv.toStream.foldLeft(Seq()[String]) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mirai.watanabe/Desktop/csv-load/src/main/scala/example/Hello.scala:16:9: value mkString is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean toString?[0m
+[0m[[0m[31merror[0m] [0m[0m      x.mkString(", ") +: z[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mirai.watanabe/Desktop/csv-load/src/main/scala/example/Hello.scala:16:24: value +: is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m      x.mkString(", ") +: z[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
